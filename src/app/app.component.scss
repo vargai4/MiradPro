@@ -82,7 +82,7 @@
 
   .divider {
     width: 1px;
-    background: var(--red-to-pink-to-purple-vertical-gradient);
+    background: #FF8600;
     margin-inline: 0.5rem;
   }
 
@@ -132,7 +132,6 @@
     width: 100%;
     height: 100%;
     z-index: 2;
-    opacity: 0.5;
   }
 
   .image-1 {
@@ -144,7 +143,7 @@
   }
   
   .image-2 {
-    animation: rotateAnimation 3s linear infinite;
+    //animation: rotateAnimation 3s linear infinite;
     z-index: 1;
   }
   
