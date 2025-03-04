@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mirad": {
+    "MiradPro": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "baseHref": "/MiradPro/",
-            "outputPath": "dist/mirad",
+            "outputPath": "dist/MiradPro",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mirad:build:production"
+              "buildTarget": "MiradPro:build:production"
             },
             "development": {
-              "buildTarget": "mirad:build:development"
+              "buildTarget": "MiradPro:build:development"
             }
           },
           "defaultConfiguration": "development"
